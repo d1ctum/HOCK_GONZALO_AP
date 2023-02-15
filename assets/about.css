@@ -29,16 +29,16 @@ header>background-image{
 }
 
 a{
-    display: inline-flex;
+    height: 2rem;
     width: 10rem;
-    height: 2.5rem;
     color: white;
     background-color: rgb(32, 66, 178);
     text-decoration: none;
     border-radius: 2px;
     align-items: center;
-    justify-content: center;
+    text-align: center;
     font-weight: bolder;
+    word-spacing: normal;
 }
 
 a[href="#"]{
@@ -46,11 +46,12 @@ a[href="#"]{
 }
 
 nav{
-    justify-content: right;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    text-align: right;
-    padding-right: 3rem;
-    word-spacing: 35px;
+    padding-right: 1rem;
+    flex-wrap: nowrap;
 }
 
 h1{
