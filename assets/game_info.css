@@ -7,7 +7,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Larispol Handwritten';
+    /* font-family: 'Larispol Handwritten'; */
     letter-spacing: 1.5px;
 }
 
@@ -29,6 +29,7 @@ header>background-image{
 }
 
 a{
+    font-family: 'Larispol Handwritten';
     height: 2rem;
     width: 10rem;
     color: white;
@@ -55,6 +56,7 @@ nav{
 }
 
 h1{
+    font-family: 'Larispol Handwritten';
     font-size: 3rem;
     margin-left: 7rem;
     margin-top: 3rem;
@@ -71,6 +73,7 @@ main section img{
 }
 
 h2{
+    font-family: 'Larispol Handwritten';
     margin-left: 7rem;
     text-align: center;
     color: white;
@@ -82,5 +85,47 @@ h2{
 }
 
 .info{
-    line-height: 5px;
+    min-width: 55.6rem;
+}
+
+.info div{
+    padding-bottom: 2rem;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 50rem;
+    min-height: 20rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width:max-content;
+}
+
+th{
+    background-color: aquamarine;
+}
+
+thead{
+    text-align: left;
+}
+
+.date{
+    text-align: center;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20rem;
+}
+
+p{
+    max-width: 52rem;
 }
