@@ -129,3 +129,26 @@ main{
 p{
     max-width: 52rem;
 }
+
+.locations{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+iframe{
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-width: 5px;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.locations h3{
+    margin-right: 90%;
+}
+
+.bottommaps{
+    margin-bottom: 0;
+}
