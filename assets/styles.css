@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'Larispol Handwritten';
+    src: url('./fonts/larispolhandwritten.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+h1{
+    font-family: 'Larispol Handwritten'!important;
+}
+
+header{
+    background-color: white;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    min-height: 25rem;
+    background-image: url(../assets/img/hockey1.jpg);
+    background-size: 190vh;
+    background-position-y: -10rem;
+    font-family: 'Larispol Handwritten'!important;
+}
+
+.banner{
+    font-family: 'Larispol Handwritten'!important;
+}
+
+
+header>background-image{
+    width: 10%;
+    height: 35%;
+}
+
+a{
+    height: 2rem;
+    width: 10rem;
+    color: white;
+    background-color: rgb(32, 66, 178);
+    text-decoration: none;
+    border-radius: 4px;
+    align-items: center;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+    word-spacing: normal;
+    font-family: 'Larispol Handwritten'!important;
+}
+
+a:hover{
+    background-color: rgb(148, 218, 44);
+    transition: 300ms;
+}
+
+a[href="#"]{
+    background-color: rgb(148, 218, 44);
+}
+
+nav{
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 1rem;
+    flex-wrap: nowrap;
+}
+
+h1{
+    font-size: 3rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    letter-spacing: 10px;
+}
+
+.images{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    display: inline-flex;
+}
+
+main section img{
+    width: 10rem;
+}
+
+h2{
+    margin-left: 7rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    margin-right: 7rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+}
+
+.info{
+    line-height: 5px;
+}
+
+.info article p,h3,h4{
+    padding-bottom: 7px;
+    font-size: x-large;
+    font-family: 'Larispol Handwritten'!important;
+}
+
+p{
+    line-height: 30px;
+}
+
+.mail{
+    background-color: white;
+    color: black;
+}
+
+.rulesinf{
+    font-size: normal;
+}
+
+.rulesinf article{
+    padding-bottom: 7px;
+}
+
+.rulesinf h3{
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 1rem;   
+    min-width: 50rem;
+    min-height: 20rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width:max-content;
+}
+
+thead{
+    text-align: left;
+}
+
+.date{
+    text-align: center;
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20rem;
+}
+
+iframe{
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-width: 5px;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.locations h3{
+    margin-right: 90%;
+}
+
+.bottommaps{
+    margin-bottom: 0;
+}
+
+#register{
+    font-family: 'Larispol Handwritten';
+    margin-left: 7rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    margin-right: 7rem;
+    height: 3rem;
+    padding-top: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    min-width: 10rem;
+}
+
+.infocontainer{
+    margin-bottom: 1.5rem;
+    max-width: 45rem;
+}
+
+.infocontainer h3,h4{
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: large;
+}
+
+#fname{
+    min-width: 33%;
+    margin-right: 2%;
+    margin-bottom: 1.5%;
+}
+
+#lname{
+    min-width: 20%;
+    margin-bottom: 1.5%;
+}
+
+#street{
+    min-width: 80.5%;
+    margin-bottom: 1.5%;
+}
+
+#city{
+    min-width: 30%;
+    margin-right: 20%;
+    margin-bottom: 1.5%;
+}
+
+#zip{
+    min-width: 30.1%;
+    margin-bottom: 1.5%;
+}
+
+#bd{
+    min-width: 15rem;
+    margin-right: 5rem;
+    margin-bottom: 1.5%;
+}
+
+.gender{
+    display: inline-flex;
+    
+}
+
+.schoolselect{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 60px;
+    /* justify-content: flex-end; */
+    gap: 5;
+}
+
+label[for="school1"], label[for="school2"], label[for="school3"]{
+    max-width: 30%;
+}
+
+p{
+    text-align: justify;
+}
+
+#signature{
+    min-width: 30%;
+}
+
+#signdate{
+    min-width: 29%;
+}
+
+#submit{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+input[type="text"]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 1.5px;
+}
+
+.positions{
+    display: flex;
+    flex-direction: column;
+    max-height: 50px;
+    flex-wrap:wrap;
+}
+
+.uniforms{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 90px;
+    gap: 2;
+}
+
+legend{
+    background-color: none;   
+}
+
+legend h3{
+    font-family: 'Open Sans', sans-serif!important;
+}
